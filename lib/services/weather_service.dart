@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class WeatherService {
-  final String apiKey = '78a94226c701e8a20d5de58a29dff67d';
+  final String apiKey = 'YOUR_API_KEY';
   final String baseUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
   // Method to fetch weather by city name
@@ -26,7 +26,7 @@ class WeatherService {
   Future<List<dynamic>?> fetch7DayForecast(
       double latitude, double longitude) async {
     final url = Uri.parse(
-        'https://api.openweathermap.org/data/2.5/onecall?lat=$latitude&lon=$longitude&exclude=current,minutely,hourly,alerts&units=metric&appid=78a94226c701e8a20d5de58a29dff67d');
+        'https://api.openweathermap.org/data/2.5/onecall?lat=$latitude&lon=$longitude&exclude=current,minutely,hourly,alerts&units=metric&appid=YOUR_API_KEY');
 
     final response = await http.get(url);
 
