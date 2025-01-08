@@ -6,6 +6,12 @@ Ani Weather App is a beautifully designed, highly accurate weather application b
 
 ---
 
+# **Working Manner**
+
+![Ani Weather App GIF](assets/ani_weather_app.gif)
+
+---
+
 ## **Features**
 
 - **Accurate Weather Data**: Get real-time weather updates with precise decimal values, unmatched by many other famous weather applications.
