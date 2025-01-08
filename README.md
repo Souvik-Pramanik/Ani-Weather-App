@@ -217,5 +217,3 @@ This project is licensed under the [MIT License](LICENSE).
 For any issues or feature requests, please open an issue on [GitHub](https://github.com/your-username/ani-weather-app/issues).
 
 ---
-
-Let me know if there’s anything else you’d like to add or modify! 🚀
